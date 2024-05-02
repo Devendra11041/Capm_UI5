@@ -1,0 +1,42 @@
+<core:FragmentDefinition
+    xmlns:core="sap.ui.core"
+    xmlns="sap.m"
+    xmlns:forms="sap.ui.layout.form"
+>
+    <forms:SimpleForm
+        id="idDesignationForm"
+        layout="ColumnLayout"
+        width="100%"
+        editable="false"
+        columnsM="2"
+        columnsL="3"
+        columnsXL="4"
+        binding="{designation}"
+    >
+    <Label
+            id="idnamedesig"
+            text="Designation Name"
+        />
+        <Text
+            id="idDesignation"
+            text="{name}"
+        />
+        <Label
+            id="iddescriptiondesig"
+            text="Desiription"
+        />
+        <Text
+            id="idDescription"
+            text="{description}"
+        />
+        <Label
+            id="idleveldesig"
+            text="Description"
+        />
+        <Text
+            id="idDesignationLevel"
+            text="{level}"
+        />
+
+ </forms:SimpleForm>
+</core:FragmentDefinition>
